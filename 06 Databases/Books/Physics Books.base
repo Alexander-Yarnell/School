@@ -1,0 +1,20 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.folder.contains("00 Physics")
+    sort: []
+  - type: cards
+    name: View
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.folder.containsAll("00 Physics")
+    groupBy:
+      property: file.folder
+      direction: ASC
+    indentProperties: false
+    markers: number
+    image: file.file

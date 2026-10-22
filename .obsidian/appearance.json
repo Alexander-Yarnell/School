@@ -1,0 +1,14 @@
+{
+  "cssTheme": "Obsidian gruvbox",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "page-banner",
+    "graphview-image",
+    "File-Browser-Style",
+    "Daily Journal",
+    "Calendar",
+    "Banner-Fix",
+    "gruvbox-dashboard",
+    "pink-equations"
+  ]
+}

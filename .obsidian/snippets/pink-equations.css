@@ -1,0 +1,14 @@
+/* Pink boxes for important equations: > [!equation] callouts */
+body .callout[data-callout="equation"] {
+  --callout-color: 236, 72, 153 !important;
+  --callout-icon: lucide-sigma;
+  background-color: rgba(255, 194, 230, 0.35) !important;
+  border: 1px solid rgba(236, 72, 153, 0.6) !important;
+}
+body.theme-dark .callout[data-callout="equation"] {
+  background-color: rgba(236, 72, 153, 0.20) !important;
+}
+body .callout[data-callout="equation"] .callout-title,
+body .callout[data-callout="equation"] .callout-icon {
+  color: rgb(236, 72, 153) !important;
+}

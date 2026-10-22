@@ -1,0 +1,65 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#Physics  ",
+      "color": {
+        "a": 1,
+        "rgb": 8627608
+      }
+    },
+    {
+      "query": "tag:#Chemistry  ",
+      "color": {
+        "a": 1,
+        "rgb": 13862555
+      }
+    },
+    {
+      "query": "tag:#Mathematics  ",
+      "color": {
+        "a": 1,
+        "rgb": 9355388
+      }
+    },
+    {
+      "query": "tag:#Programming  ",
+      "color": {
+        "a": 1,
+        "rgb": 16468276
+      }
+    },
+    {
+      "query": "path:\"01 Journals/00 Daily Notes\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 12424185
+      }
+    },
+    {
+      "query": "path:\"00 Dashboards\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5562450
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.35891003460208,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.13018259809565824,
+  "close": true
+}

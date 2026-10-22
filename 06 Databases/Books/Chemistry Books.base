@@ -1,0 +1,7 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.folder.containsAll("03 Chemistry")

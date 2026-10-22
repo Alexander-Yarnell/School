@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.folder.containsAll("04 Programming")
+    sort:
+      - property: file.name
+        direction: ASC

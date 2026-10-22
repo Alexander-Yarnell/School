@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiLayoutDashboard",
+      "LiBoxSelect",
+      "LiNetwork",
+      "LiBook",
+      "LiConstruction"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "02 Notes": {
+    "iconName": "LiBook",
+    "iconColor": "#8ec07c"
+  },
+  "03 References": {
+    "iconName": "LiNetwork",
+    "iconColor": "#ebdbb2"
+  },
+  "04 Templates": {
+    "iconName": "LiConstruction",
+    "iconColor": "#fe8019"
+  },
+  "05 Assets": {
+    "iconName": "LiCamera",
+    "iconColor": "#fb4934"
+  },
+  "07 ToDo": {
+    "iconName": "LiBoxSelect",
+    "iconColor": "#928374"
+  }
+}

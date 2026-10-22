@@ -1,0 +1,59 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "04 Templates/00 Journals",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "01 Journals/00 Daily Notes",
+      "template": "04 Templates/00 Journals/Daily Journal - Template.md"
+    },
+    {
+      "folder": "02 Notes/Chemistry",
+      "template": "04 Templates/01 Lectures/Chemistry - Template.md"
+    },
+    {
+      "folder": "02 Notes/Mathematics",
+      "template": "04 Templates/01 Lectures/Mathematics - Template.md"
+    },
+    {
+      "folder": "02 Notes/Physics",
+      "template": "04 Templates/01 Lectures/Physics - Template.md"
+    },
+    {
+      "folder": "02 Notes/Programming",
+      "template": "04 Templates/01 Lectures/Programming - Template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+/* Pixel Banner full-width fix */
+
+/* Turn the note pane into the sizing reference point */
+.view-content {
+  container-type: inline-size;
+}
+
+/* Reading mode */
+.markdown-preview-view .pixel-banner,
+.markdown-preview-view .pixel-banner-image {
+  width: 100cqw !important;
+  max-width: 100cqw !important;
+  margin-left: calc(50% - 50cqw) !important;
+  margin-right: calc(50% - 50cqw) !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+}
+
+.markdown-preview-view .pixel-banner img,
+.markdown-preview-view img.pixel-banner-image {
+  width: 100cqw !important;
+  max-width: 100cqw !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  border-radius: 0 !important;
+}
+
+/* Live Preview banner container */
+.markdown-source-view.mod-cm6 .pixel-banner,
+.markdown-source-view.mod-cm6 .pixel-banner-image {
+  width: 100cqw !important;
+  max-width: 100cqw !important;
+  margin-left: calc(50% - 50cqw) !important;
+  margin-right: calc(50% - 50cqw) !important;
+  border-radius: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Live Preview image */
+.markdown-source-view.mod-cm6 .pixel-banner img,
+.markdown-source-view.mod-cm6 img.pixel-banner-image {
+  width: 100cqw !important;
+  max-width: 100cqw !important;
+  height: 220px !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  display: block !important;
+  border-radius: 0 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-line {
+  overflow: visible !important;
+}
+.cm-scroller {
+  overflow-x: hidden !important;
+}
+
+.markdown-preview-view {
+  overflow-x: hidden !important;
+}

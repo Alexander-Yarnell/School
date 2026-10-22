@@ -1,0 +1,14 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.folder.containsAll("02 Mathematics")
+  - type: list
+    name: View
+    filters:
+      and:
+        - file.ext == "pdf"
+        - file.folder.containsAll("02 Mathematics")
+    markers: number

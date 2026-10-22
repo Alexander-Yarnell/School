@@ -1,0 +1,95 @@
+/*
+  Dracula Folder Colors for Obsidian
+  Subfolders inherit the same color as their parent.
+*/
+
+/* General folder styling */
+.nav-folder-title {
+  border-radius: 6px;
+  padding: 3px 7px;
+  margin: 2px 0;
+  font-weight: 600;
+  background-color: var(--folder-bg, rgba(68, 71, 90, 0.35)) !important;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Folder text + icons */
+.nav-folder-title,
+.nav-folder-title .nav-folder-title-content,
+.nav-folder-title .collapse-icon,
+.nav-folder-title svg {
+  color: var(--folder-color, #F8F8F2) !important;
+}
+
+/* ===== Top-level folder colors ===== */
+
+/* Cyan */
+.nav-files-container > div > .nav-folder:nth-child(8n + 1) {
+  --folder-color: #8BE9FD;
+  --folder-bg: rgba(139, 233, 253, 0.12);
+}
+
+/* Green */
+.nav-files-container > div > .nav-folder:nth-child(8n + 2) {
+  --folder-color: #50FA7B;
+  --folder-bg: rgba(80, 250, 123, 0.12);
+}
+
+/* Purple */
+.nav-files-container > div > .nav-folder:nth-child(8n + 3) {
+  --folder-color: #BD93F9;
+  --folder-bg: rgba(189, 147, 249, 0.12);
+}
+
+/* Pink */
+.nav-files-container > div > .nav-folder:nth-child(8n + 4) {
+  --folder-color: #FF79C6;
+  --folder-bg: rgba(255, 121, 198, 0.12);
+}
+
+/* Orange */
+.nav-files-container > div > .nav-folder:nth-child(8n + 5) {
+  --folder-color: #FFB86C;
+  --folder-bg: rgba(255, 184, 108, 0.12);
+}
+
+/* Red */
+.nav-files-container > div > .nav-folder:nth-child(8n + 6) {
+  --folder-color: #FF5555;
+  --folder-bg: rgba(255, 85, 85, 0.12);
+}
+
+/* Yellow */
+.nav-files-container > div > .nav-folder:nth-child(8n + 7) {
+  --folder-color: #F1FA8C;
+  --folder-bg: rgba(241, 250, 140, 0.12);
+}
+
+/* Foreground White */
+.nav-files-container > div > .nav-folder:nth-child(8n + 8) {
+  --folder-color: #F8F8F2;
+  --folder-bg: rgba(248, 248, 242, 0.08);
+}
+
+/* Subfolders inherit parent color */
+.nav-folder .nav-folder {
+  --folder-color: inherit;
+  --folder-bg: inherit;
+}
+
+/* Slightly dim nested folders */
+.nav-folder .nav-folder .nav-folder-title {
+  opacity: 0.95;
+}
+
+/* Hover */
+.nav-folder-title:hover {
+  background-color: rgba(68, 71, 90, 0.65) !important;
+}
+
+/* Active folder */
+.nav-folder-title.is-active,
+.nav-folder-title.is-being-renamed {
+  outline: 1px solid var(--folder-color) !important;
+  background-color: color-mix(in srgb, var(--folder-color) 18%, #44475A) !important;
+}
