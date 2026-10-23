@@ -6,7 +6,6 @@ kanban-plugin: board
 
 ## ToDo
 
-- [ ] Programming assignment 7
 - [ ] Intro to Research writing Paper 2
 - [ ] Math Physics 3
 - [ ] Physics homework
@@ -14,15 +13,16 @@ kanban-plugin: board
 
 ## In Progress
 
-- [ ] Programming Assignment 2
-- [ ] Math Physics 2
 - [ ] Intro to Research writing Paper 1
-- [ ] Lab Report
+- [ ] Programming Assignment 2
 
 
 ## Complete
 
+- [ ] Programming assignment 7
+- [ ] Math Physics 2
 - [ ] Physics Test 1
+- [ ] Lab Report
 - [ ] Physics Test 2
 - [ ] Math Physics 1
 

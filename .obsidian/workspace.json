@@ -25,14 +25,22 @@
             "id": "9357f02680be7df4",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "kanban",
               "state": {
-                "url": "https://publish.obsidian.md/git-doc/Integration+with+other+tools",
-                "title": "Integration with other tools - Git Documentation - Obsidian Publish",
-                "mode": "webview"
+                "file": "07 ToDo/Homework.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false,
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "globe-2",
-              "title": "Integration with other tools - Git Documentation - Obsidian Publish"
+              "icon": "lucide-trello",
+              "title": "Homework"
             }
           }
         ],
