@@ -25,22 +25,14 @@
             "id": "9357f02680be7df4",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "07 ToDo/Homework.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "01 Journals/00 Daily Notes/2026-10-22.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Homework"
+              "icon": "lucide-file",
+              "title": "2026-10-22"
             }
           }
         ],
@@ -289,12 +281,13 @@
   "active": "9357f02680be7df4",
   "lastOpenFiles": [
     "00 Dashboards/Dashboard.md",
+    "01 Journals/00 Daily Notes/2026-10-22.md",
+    "07 ToDo/Homework.md",
     "03 References/00 Books/04 Programming/Python/Matplotlib_for_Python_Developers_Effective_Techniq....pdf",
     "02 Notes/Physics/Engineering Physics 2/Lecture 1.md",
     "02 Notes/Useful Equations.md",
     "03 References/00 Books/02 Mathematics/MathematicalMethodsInThePhysicalSciences3e.pdf",
     "03 References/00 Books/02 Mathematics/Mathematical Methods In The Physical Sciences.pdf",
-    "07 ToDo/Homework.md",
     "02 Notes/Mathematics/Linear Algebra/Vector Spaces.md",
     "02 Notes/Mathematics/Linear Algebra/Eigenvalues and Eigenvectors.md",
     "02 Notes/Mathematics/Linear Algebra/Linear Transformations.md",

@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Homework",
-      "path": "07 ToDo/Homework.md"
+      "basename": "2026-10-22",
+      "path": "01 Journals/00 Daily Notes/2026-10-22.md"
     },
     {
       "basename": "Dashboard",
       "path": "00 Dashboards/Dashboard.md"
+    },
+    {
+      "basename": "Homework",
+      "path": "07 ToDo/Homework.md"
     },
     {
       "basename": "Matplotlib_for_Python_Developers_Effective_Techniq...",
@@ -195,10 +199,6 @@
     {
       "basename": "2026-07-28",
       "path": "01 Journals/00 Daily Notes/2026-07-28.md"
-    },
-    {
-      "basename": "Programming - Template",
-      "path": "04 Templates/01 Lectures/Programming - Template.md"
     }
   ],
   "omittedPaths": [],
